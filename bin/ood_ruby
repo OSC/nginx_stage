@@ -13,6 +13,11 @@
 # - git 1.9
 #
 
+# Allow admin to override this script
+#
+GLOBAL_WRAPPER="/etc/ood/nginx_stage/bin/ood_ruby"
+[[ -x "${GLOBAL_WRAPPER}" ]] && exec "${GLOBAL_WRAPPER}" "$@"
+
 # For Software Collections 2.0
 #
 # 1. Read in environment variable SCL_PKGS which may be set in `sudo` call

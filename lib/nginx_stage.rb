@@ -28,6 +28,12 @@ module NginxStage
     File.dirname __dir__
   end
 
+  # Global path for overriding configuration
+  # @return [String] global path for configuration
+  def self.config_root
+    ENV["NGINX_STAGE_CONFIG_ROOT"] || '/etc/ood/nginx_stage'
+  end
+
   extend Configuration
 
   # Regex used to parse an app request

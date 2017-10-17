@@ -6,7 +6,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 ### Changed
+- Moved configuration location to `/etc/ood/nginx_stage`.
+
+### Changed
 - Modified the CHANGELOG formatting.
+
+### Deprecated
+- Deprecating the old configuration location located underneath the app's
+  installation directory.
 
 ### Fixed
 - Fixed link to documentation in `README.md`.

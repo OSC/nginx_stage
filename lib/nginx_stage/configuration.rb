@@ -299,7 +299,12 @@ module NginxStage
     # Default configuration file
     # @return [String] path to default yaml configuration file
     def default_config_path
-      File.join root, 'config', 'nginx_stage.yml'
+      config = File.join config_root, 'config.yml'
+      unless File.file?(config)
+        config = File.join root, 'config', 'nginx_stage.yml'
+        warn "[DEPRECATION] The file '#{config}' is being deprecated. Please move this file to '/etc/ood/nginx_stage/config.yml'." if File.file?(config)
+      end
+      config
     end
 
     # Yields the configuration object.
