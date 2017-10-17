@@ -5,6 +5,10 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Added
+- Added a confirmation page when attempting to restart PUN due to discovery of
+  uninitialized app. [#20](https://github.com/OSC/nginx_stage/issues/20)
+
 ### Changed
 - Modified the CHANGELOG formatting.
 
