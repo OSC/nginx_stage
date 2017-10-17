@@ -7,6 +7,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ## [Unreleased]
 ### Changed
 - Moved configuration location to `/etc/ood/nginx_stage`.
+  [#23](https://github.com/OSC/nginx_stage/pull/23)
 
 ### Changed
 - Modified the CHANGELOG formatting.
