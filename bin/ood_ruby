@@ -15,8 +15,7 @@
 
 # Allow admin to override this script
 #
-GLOBAL_WRAPPER="/etc/ood/nginx_stage/bin/ood_ruby"
-[[ -x "${GLOBAL_WRAPPER}" ]] && exec "${GLOBAL_WRAPPER}" "$@"
+[[ -x "${NGINX_STAGE_WRAPPER}" ]] && exec "${NGINX_STAGE_WRAPPER}" "$@"
 
 # For Software Collections 2.0
 #
