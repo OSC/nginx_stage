@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
   uninitialized app. [#20](https://github.com/OSC/nginx_stage/issues/20)
 - Added configuration option to modify regular expression used to validate user
   name. [#19](https://github.com/OSC/nginx_stage/issues/19)
+- Added support to specify custom NGINX environment under `/etc/ood/env`.
 
 ### Changed
 - Default regex for validating username now includes common email symbols.
