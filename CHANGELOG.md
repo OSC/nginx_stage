@@ -5,9 +5,18 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
 
 ## [Unreleased]
+### Changed
+- Combined the Ruby wrapper script with the `nginx_stage` executable script.
+  [#27](https://github.com/OSC/nginx_stage/issues/27)
+
 ### Fixed
 - Display error if the user's home directory does not exist.
   [#25](https://github.com/OSC/nginx_stage/issues/25)
+
+## [0.3.1] - 2017-11-27
+### Changed
+- Replaced all occurrences of `Fixnum` with `Integer` to better support Ruby
+  2.4+. [#29](https://github.com/OSC/nginx_stage/issues/29)
 
 ## [0.3.0] - 2017-10-30
 ### Added
@@ -183,7 +192,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 ### Added
 - Initial release
 
-[Unreleased]: https://github.com/OSC/nginx_stage/compare/v0.3.0...HEAD
+[Unreleased]: https://github.com/OSC/nginx_stage/compare/v0.3.1...HEAD
+[0.3.1]: https://github.com/OSC/nginx_stage/compare/v0.3.0...v0.3.1
 [0.3.0]: https://github.com/OSC/nginx_stage/compare/v0.2.1...v0.3.0
 [0.2.1]: https://github.com/OSC/nginx_stage/compare/v0.2.0...v0.2.1
 [0.2.0]: https://github.com/OSC/nginx_stage/compare/v0.1.0...v0.2.0
