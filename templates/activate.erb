@@ -1,0 +1,3 @@
+<%- nginx_env.each do |k, v| -%>
+export <%= k %>=<%= v %>
+<%- end -%>
