@@ -1,3 +1,5 @@
+## Moved to https://github.com/OSC/ondemand/tree/master/nginx_stage
+
 # nginx_stage
 
 ![GitHub Release](https://img.shields.io/github/release/osc/nginx_stage.svg)
