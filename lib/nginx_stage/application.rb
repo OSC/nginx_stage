@@ -23,6 +23,7 @@ module NginxStage
         'nginx_show'  => NginxStage::NginxShowGenerator,
         'nginx_list'  => NginxStage::NginxListGenerator,
         'nginx_clean' => NginxStage::NginxCleanGenerator,
+        'activate'    => NginxStage::ActivateGenerator,
       }
     end
 

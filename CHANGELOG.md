@@ -8,6 +8,8 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [0.5.0] - 2018-04-30
 ### Added
+- Add an `activate` subcommand that outputs a script that can be sourced to get
+  same environment the PUN is run in.
 - Made currently installed version number of OnDemand available to all PUNs if
   the OnDemand version file exists.
   [#36](https://github.com/OSC/nginx_stage/issues/36)
